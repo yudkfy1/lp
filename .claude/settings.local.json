@@ -11,7 +11,9 @@
       "Bash(git push *)",
       "Bash(brew --version)",
       "Bash(git credential-osxkeychain *)",
-      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Replace LP with mala tang restaurant: fiery red/black theme, spice levels, customize flow\")"
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Replace LP with mala tang restaurant: fiery red/black theme, spice levels, customize flow\")",
+      "Bash(mkdir -p /Users/yudu/.claude/projects/-Users-yudu-Desktop-LP--/memory/)",
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add CLAUDE.md: LP creation workflow with hearing mode rules\")"
     ]
   }
 }
