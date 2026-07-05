@@ -4,7 +4,8 @@
       "Bash(git config *)",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Initial commit: test LP\")"
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Initial commit: test LP\")",
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Build minori greengrocer LP: hero, features, products, farmers, testimonials, FAQ, access, CTA\")"
     ]
   }
 }
