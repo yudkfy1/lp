@@ -13,7 +13,10 @@
       "Bash(git credential-osxkeychain *)",
       "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Replace LP with mala tang restaurant: fiery red/black theme, spice levels, customize flow\")",
       "Bash(mkdir -p /Users/yudu/.claude/projects/-Users-yudu-Desktop-LP--/memory/)",
-      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add CLAUDE.md: LP creation workflow with hearing mode rules\")"
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add CLAUDE.md: LP creation workflow with hearing mode rules\")",
+      "WebFetch(domain:docs.google.com)",
+      "Bash(git mv *)",
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add BrightHope corporate site \\(5 pages\\) + reorganize: move mala tang to /koen/, add root portfolio\")"
     ]
   }
 }

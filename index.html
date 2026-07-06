@@ -3,355 +3,116 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="灼熱麻辣湯 紅焔｜本場四川の花椒がしびれる、あなただけの一杯をカスタマイズ。辛さレベル10段階から選べる本格麻辣湯専門店。" />
-  <title>灼熱麻辣湯 紅焔｜燃える一杯、しびれる余韻。</title>
+  <title>LP制作ポートフォリオ</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Serif+SC:wght@700;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Noto Sans JP", -apple-system, sans-serif;
+      color: #2b2b2b;
+      background: #f7f7fb;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 960px; margin: 0 auto; padding: 80px 24px; }
+    header {
+      text-align: center;
+      margin-bottom: 64px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid #e2e5eb;
+    }
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #1e5aa8, #f5a623);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    header p { color: #6b6b6b; font-size: 14px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s, box-shadow 0.2s;
+      border: 1px solid #e2e5eb;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    }
+    .thumb {
+      aspect-ratio: 16/10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 72px;
+    }
+    .thumb-koen { background: linear-gradient(135deg, #e5231c, #4a0000); }
+    .thumb-brighthope { background: linear-gradient(135deg, #1e5aa8, #f5a623); }
+    .body { padding: 24px; }
+    .type {
+      display: inline-block;
+      background: #eaf2fc;
+      color: #1e5aa8;
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin-bottom: 12px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+    .type.test { background: #fdecea; color: #c62828; }
+    .body h2 { font-size: 18px; margin-bottom: 8px; }
+    .body p { color: #6b6b6b; font-size: 13px; }
+    footer {
+      margin-top: 80px;
+      text-align: center;
+      color: #6b6b6b;
+      font-size: 12px;
+    }
+  </style>
 </head>
 <body>
+  <div class="wrap">
+    <header>
+      <h1>LP制作ポートフォリオ</h1>
+      <p>制作したランディングページ・コーポレートサイトの一覧です</p>
+    </header>
 
-  <!-- Warning banner -->
-  <div class="banner-top">
-    <span>🌶️ 辛党のみなさま、いよいよ限界突破。10段階の激辛レベルをご用意</span>
+    <div class="grid">
+      <a href="brighthope/index.html" class="card">
+        <div class="thumb thumb-brighthope">🚛</div>
+        <div class="body">
+          <span class="type">CORPORATE SITE</span>
+          <h2>合同会社BrightHope</h2>
+          <p>軽貨物運送 × 中古車オークション代行の複数ページコーポレートサイト。安心と透明性を伝える王道デザイン。</p>
+        </div>
+      </a>
+
+      <a href="koen/index.html" class="card">
+        <div class="thumb thumb-koen">🔥</div>
+        <div class="body">
+          <span class="type test">TEST / SAMPLE</span>
+          <h2>灼熱麻辣湯 紅焔</h2>
+          <p>麻辣湯専門店の1枚LP。辛さと痺れを視覚化した赤×黒×金の中華ストリート感（テスト制作）。</p>
+        </div>
+      </a>
+    </div>
+
+    <footer>
+      <p>© 2026 LP Portfolio</p>
+    </footer>
   </div>
-
-  <!-- Header -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="#" class="logo">
-        <span class="logo-mark">紅</span>
-        <span class="logo-text">灼熱麻辣湯 <em>紅焔</em></span>
-      </a>
-      <nav class="nav">
-        <a href="#about">麻辣湯とは</a>
-        <a href="#reason">こだわり</a>
-        <a href="#custom">カスタマイズ</a>
-        <a href="#level">辛さレベル</a>
-        <a href="#menu">メニュー</a>
-        <a href="#access">店舗</a>
-      </nav>
-      <a href="#cta" class="header-cta">今すぐ来店予約</a>
-    </div>
-  </header>
-
-  <!-- Hero -->
-  <section class="hero">
-    <div class="hero-flames">
-      <span>🔥</span><span>🔥</span><span>🔥</span><span>🔥</span><span>🔥</span>
-    </div>
-    <div class="hero-bg"></div>
-    <div class="container hero-inner">
-      <p class="hero-eyebrow">MALA TANG · 麻辣烫</p>
-      <h1 class="hero-title">
-        <span class="title-line-1">燃える一杯、</span>
-        <span class="title-line-2">しびれる<em>余韻</em>。</span>
-      </h1>
-      <p class="hero-lead">
-        四川直輸入の花椒と唐辛子、20時間煮込む骨湯スープ。<br />
-        30種の具材から選ぶ、あなただけの本格麻辣湯。
-      </p>
-      <div class="hero-cta">
-        <a href="#cta" class="btn btn-primary">
-          🔥 初回限定 具材3種プレゼント
-          <span class="btn-sub">LINE登録で今すぐ受取</span>
-        </a>
-        <a href="#custom" class="btn btn-ghost">カスタマイズを見る →</a>
-      </div>
-      <ul class="hero-stats">
-        <li><strong>10</strong><span>段階の辛さ</span></li>
-        <li><strong>30+</strong><span>種の具材</span></li>
-        <li><strong>20h</strong><span>煮込みスープ</span></li>
-        <li><strong>4.8</strong><span>Google評価</span></li>
-      </ul>
-    </div>
-    <div class="hero-scroll">SCROLL ↓</div>
-  </section>
-
-  <!-- About -->
-  <section class="about" id="about">
-    <div class="container">
-      <p class="section-eyebrow">WHAT IS MALA TANG</p>
-      <h2 class="section-title">麻辣湯（マーラータン）とは。</h2>
-      <div class="about-grid">
-        <div class="about-text">
-          <p class="about-lead">中国・四川発祥。<br class="sp-only">"しびれる辛さ"の万能スープ麺。</p>
-          <p>好きな具材を選び、辛さを調整し、そこに濃厚な麻辣スープを注ぐ。中国では屋台文化として親しまれ、いま日本でZ世代を中心に爆発的人気を獲得している"カスタマイズ薬膳鍋"です。</p>
-          <p>「麻」＝しびれ（花椒）、「辣」＝辛さ（唐辛子）。この2つが織りなす複雑な旨みは、一度食べたら忘れられません。</p>
-        </div>
-        <div class="about-visual">
-          <div class="ideogram">
-            <span class="char">麻</span>
-            <span class="char-sub">しびれ</span>
-          </div>
-          <div class="ideogram">
-            <span class="char">辣</span>
-            <span class="char-sub">辛さ</span>
-          </div>
-          <div class="ideogram">
-            <span class="char">燙</span>
-            <span class="char-sub">熱々</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Reason -->
-  <section class="reason" id="reason">
-    <div class="container">
-      <p class="section-eyebrow">紅焔のこだわり</p>
-      <h2 class="section-title">妥協なき、本場の味。</h2>
-      <div class="reason-grid">
-        <article class="reason-card">
-          <div class="reason-num">01</div>
-          <div class="reason-icon">🌶️</div>
-          <h3>四川直輸入スパイス</h3>
-          <p>四川省・漢源産の青花椒と朝天唐辛子を直輸入。しびれと辛さの黄金比を独自ブレンド。国内では出せない本場の香りを実現しました。</p>
-        </article>
-        <article class="reason-card">
-          <div class="reason-num">02</div>
-          <div class="reason-icon">🍲</div>
-          <h3>20時間煮込みスープ</h3>
-          <p>豚骨と鶏ガラを20時間じっくり炊き出し。20種以上の生薬・漢方素材で仕上げた薬膳スープは、辛い中にも深いコクと甘みを宿します。</p>
-        </article>
-        <article class="reason-card">
-          <div class="reason-num">03</div>
-          <div class="reason-icon">🥬</div>
-          <h3>30種の新鮮具材</h3>
-          <p>青菜・肉・海鮮・練り物・きのこ・麺類まで30種以上。すべて店内仕込みで、朝仕入れの新鮮素材だけを使用。冷凍具材は一切使いません。</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Customize Flow -->
-  <section class="custom" id="custom">
-    <div class="container">
-      <p class="section-eyebrow">CUSTOMIZE FLOW</p>
-      <h2 class="section-title">あなただけの一杯を、3ステップで。</h2>
-      <div class="step-grid">
-        <div class="step-card">
-          <div class="step-num">STEP<br><span>01</span></div>
-          <h3>具材を選ぶ</h3>
-          <p>30種類から好きなものを何個でも。<br>迷ったら店員がおすすめします。</p>
-          <div class="step-tags">
-            <span>青梗菜</span><span>豚バラ</span><span>エビ</span>
-            <span>湯葉</span><span>春雨</span><span>木耳</span>
-          </div>
-        </div>
-        <div class="step-arrow">→</div>
-        <div class="step-card">
-          <div class="step-num">STEP<br><span>02</span></div>
-          <h3>辛さを決める</h3>
-          <p>0〜10段階でお好みに調整。<br>初めての方はレベル2〜3から。</p>
-          <div class="step-tags">
-            <span>🔥×0</span><span>🔥×3</span><span>🔥×5</span>
-            <span>🔥×7</span><span>🔥×10</span>
-          </div>
-        </div>
-        <div class="step-arrow">→</div>
-        <div class="step-card">
-          <div class="step-num">STEP<br><span>03</span></div>
-          <h3>受け取る</h3>
-          <p>その場で作る本格麻辣湯を<br>アツアツのままお召し上がりください。</p>
-          <div class="step-tags">
-            <span>店内</span><span>テイクアウト</span><span>デリバリー</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Spice Level -->
-  <section class="level" id="level">
-    <div class="container">
-      <p class="section-eyebrow">SPICE LEVEL</p>
-      <h2 class="section-title">10段階の、辛さの階段。</h2>
-      <p class="section-lead">あなたはどこまで、登れる？</p>
-      <div class="level-list">
-        <div class="level-item lv-1">
-          <div class="level-num">Lv.1-2</div>
-          <div class="level-name">辛くない</div>
-          <div class="level-desc">辛味ゼロ。子どもも安心の白湯スタイル。</div>
-          <div class="level-bar"><span style="width:15%"></span></div>
-        </div>
-        <div class="level-item lv-2">
-          <div class="level-num">Lv.3-4</div>
-          <div class="level-name">ピリ辛</div>
-          <div class="level-desc">初心者におすすめ。ほんのり花椒の香り。</div>
-          <div class="level-bar"><span style="width:35%"></span></div>
-        </div>
-        <div class="level-item lv-3">
-          <div class="level-num">Lv.5-6</div>
-          <div class="level-name">中辛</div>
-          <div class="level-desc">当店の標準。旨みと辛さのベストバランス。</div>
-          <div class="level-bar"><span style="width:55%"></span></div>
-        </div>
-        <div class="level-item lv-4">
-          <div class="level-num">Lv.7-8</div>
-          <div class="level-name">激辛</div>
-          <div class="level-desc">辛党もうなる本場四川の辛さ。汗、必至。</div>
-          <div class="level-bar"><span style="width:80%"></span></div>
-        </div>
-        <div class="level-item lv-5">
-          <div class="level-num">Lv.9-10</div>
-          <div class="level-name">灼熱地獄</div>
-          <div class="level-desc">自己責任。完食で店内に名前を刻めます。</div>
-          <div class="level-bar"><span style="width:100%"></span></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Menu -->
-  <section class="menu" id="menu">
-    <div class="container">
-      <p class="section-eyebrow">POPULAR MENU</p>
-      <h2 class="section-title">まずはコレ、人気の3杯。</h2>
-      <div class="menu-grid">
-        <article class="menu-card">
-          <div class="menu-badge">🥇 No.1</div>
-          <div class="menu-img" style="background: radial-gradient(circle at 30% 30%, #ff4b1f, #8b0000);">
-            <span class="menu-emoji">🍜</span>
-          </div>
-          <div class="menu-body">
-            <h3>店長おまかせ<br>紅焔スペシャル</h3>
-            <p>人気具材10種＋春雨。まずはコレ。辛さレベル5推奨。</p>
-            <p class="menu-price">¥1,580<span>税込</span></p>
-          </div>
-        </article>
-        <article class="menu-card">
-          <div class="menu-badge">🥈 No.2</div>
-          <div class="menu-img" style="background: radial-gradient(circle at 30% 30%, #f5b642, #8b3a00);">
-            <span class="menu-emoji">🥟</span>
-          </div>
-          <div class="menu-body">
-            <h3>薬膳鶏白湯<br>やさしい麻辣</h3>
-            <p>辛さレベル0-3対応。滋味あふれるスープで疲れた体に。</p>
-            <p class="menu-price">¥1,380<span>税込</span></p>
-          </div>
-        </article>
-        <article class="menu-card">
-          <div class="menu-badge">🔥 挑戦者</div>
-          <div class="menu-img" style="background: radial-gradient(circle at 30% 30%, #ff0000, #1a0000);">
-            <span class="menu-emoji">👹</span>
-          </div>
-          <div class="menu-body">
-            <h3>灼熱地獄<br>レベル10フルセット</h3>
-            <p>激辛好き限定。完食者は"殿堂入り"の名誉を得る。</p>
-            <p class="menu-price">¥1,980<span>税込</span></p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Voice -->
-  <section class="voice">
-    <div class="container">
-      <p class="section-eyebrow">CUSTOMER VOICE</p>
-      <h2 class="section-title">辛さに、恋しました。</h2>
-      <div class="voice-grid">
-        <blockquote class="voice-card">
-          <div class="voice-stars">★★★★★</div>
-          <p>"花椒のしびれが本当に本場！四川旅行を思い出しました。週2で通ってます。"</p>
-          <footer>— @spice_lover_92（20代・OL）</footer>
-        </blockquote>
-        <blockquote class="voice-card">
-          <div class="voice-stars">★★★★★</div>
-          <p>"辛いのが苦手でも、レベル2でスープの旨みを堪能できました。薬膳っぽくて体があったまる。"</p>
-          <footer>— @yuka_gourmet（30代・主婦）</footer>
-        </blockquote>
-        <blockquote class="voice-card">
-          <div class="voice-stars">★★★★★</div>
-          <p>"レベル10完食して殿堂入りしました。もう他の激辛では物足りない体になりました。"</p>
-          <footer>— @gekikara_king（20代・学生）</footer>
-        </blockquote>
-      </div>
-    </div>
-  </section>
-
-  <!-- Access -->
-  <section class="access" id="access">
-    <div class="container">
-      <p class="section-eyebrow">STORE INFO</p>
-      <h2 class="section-title">本店で、お待ちしています。</h2>
-      <div class="access-grid">
-        <div class="access-info">
-          <dl>
-            <dt>店名</dt><dd>灼熱麻辣湯 紅焔（こうえん）</dd>
-            <dt>住所</dt><dd>東京都新宿区歌舞伎町1-2-3 紅ビル1F</dd>
-            <dt>営業時間</dt><dd>11:00 - 翌2:00（L.O. 翌1:30）</dd>
-            <dt>定休日</dt><dd>年中無休</dd>
-            <dt>電話</dt><dd>03-0000-0000</dd>
-            <dt>アクセス</dt><dd>JR新宿駅東口より徒歩5分</dd>
-            <dt>席数</dt><dd>32席（カウンター12 / テーブル20）</dd>
-          </dl>
-        </div>
-        <div class="access-map">
-          <div class="map-placeholder">
-            <span>MAP</span>
-            <p>Google Map埋め込み予定</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="cta" id="cta">
-    <div class="cta-flames">
-      <span>🔥</span><span>🔥</span><span>🔥</span><span>🔥</span><span>🔥</span><span>🔥</span><span>🔥</span>
-    </div>
-    <div class="container container-narrow">
-      <p class="cta-eyebrow">🎁 初回来店限定キャンペーン</p>
-      <h2 class="cta-title">
-        LINE登録で、<br />
-        <span class="cta-highlight">人気具材3種</span>を<br />
-        <span class="cta-highlight">無料プレゼント。</span>
-      </h2>
-      <p class="cta-lead">
-        30秒で友だち追加、そのままご来店ください。<br />
-        あなただけの一杯を、店員と一緒に作りましょう。
-      </p>
-      <a href="#" class="btn btn-primary btn-large">
-        🔥 LINEで具材3種を受け取る
-      </a>
-      <p class="cta-note">※ 初回来店限定。予告なく終了する場合があります。</p>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div>
-          <p class="footer-logo">灼熱麻辣湯 紅焔</p>
-          <p class="footer-desc">燃える一杯、しびれる余韻。<br>本場四川の味を、東京・新宿で。</p>
-        </div>
-        <div>
-          <p class="footer-title">MENU</p>
-          <ul>
-            <li><a href="#about">麻辣湯とは</a></li>
-            <li><a href="#custom">カスタマイズ</a></li>
-            <li><a href="#level">辛さレベル</a></li>
-            <li><a href="#menu">人気メニュー</a></li>
-          </ul>
-        </div>
-        <div>
-          <p class="footer-title">CONTACT</p>
-          <ul>
-            <li>Tel: 03-0000-0000</li>
-            <li>Mail: info@koen-mala.example</li>
-            <li>Instagram: @koen_malatang</li>
-          </ul>
-        </div>
-      </div>
-      <p class="copyright">© 2026 灼熱麻辣湯 紅焔. All rights reserved.</p>
-    </div>
-  </footer>
-
 </body>
 </html>
