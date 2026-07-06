@@ -469,6 +469,14 @@ body {
   font-size: 32px;
   margin-bottom: 20px;
 }
+.reason-icon-img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto 12px;
+  display: block;
+  object-fit: contain;
+}
 .reason-card h3 {
   font-size: 18px;
   margin-bottom: 12px;
