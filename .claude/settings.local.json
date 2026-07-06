@@ -36,7 +36,9 @@
       "Bash(sips -g pixelWidth -g pixelHeight \"/Users/yudu/Desktop/LP作成/brighthope/images/recruit-icons-full.png\")",
       "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add recruit feature icons: 4 individual icons for recruit page benefits section\")",
       "Bash(python3)",
-      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Fix icons \\(transparent bg + centered\\) and change hero to full background image\")"
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Fix icons \\(transparent bg + centered\\) and change hero to full background image\")",
+      "Bash(sort -k2 -r)",
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add background image to about page header\")"
     ]
   }
 }

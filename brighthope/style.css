@@ -423,6 +423,14 @@ body {
   position: relative;
   overflow: hidden;
 }
+.page-header-about {
+  background:
+    linear-gradient(135deg, rgba(8,42,82,0.72), rgba(13,61,117,0.55) 60%, rgba(13,61,117,0.35)),
+    url('images/page-about.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .page-header::before {
   content: "";
   position: absolute;
