@@ -24,7 +24,8 @@
       "Bash(mv \"/Users/yudu/Downloads/Gemini_Generated_Image_qfc1tbqfc1tbqfc1.png\" \"/Users/yudu/Desktop/LP作成/brighthope/images/hero.png\" && ls -la /Users/yudu/Desktop/LP作成/brighthope/images/ && file /Users/yudu/Desktop/LP作成/brighthope/images/hero.png)",
       "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add hero image to top page\")",
       "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Replace CEO photo placeholder with default silhouette avatar\")",
-      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add delivery service image to services page\")"
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add delivery service image to services page\")",
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add auction service image to services page\")"
     ]
   }
 }
