@@ -628,10 +628,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
-  font-size: 100px;
-  font-weight: 900;
+  overflow: hidden;
   box-shadow: 0 10px 30px rgba(30,90,168,0.3);
+}
+.ceo-photo svg {
+  width: 90%;
+  height: 90%;
 }
 .ceo-body h3 {
   font-size: 20px;
