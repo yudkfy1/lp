@@ -39,7 +39,8 @@
       "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Fix icons \\(transparent bg + centered\\) and change hero to full background image\")",
       "Bash(sort -k2 -r)",
       "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add background image to about page header\")",
-      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add background images to services, recruit, and news page headers\")"
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add background images to services, recruit, and news page headers\")",
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Refine mobile layout across all sections: text alignment, sizing, spacing, iOS zoom fix\")"
     ]
   }
 }
