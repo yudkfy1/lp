@@ -102,6 +102,13 @@ body {
   font-size: 20px;
   letter-spacing: -0.05em;
 }
+.logo-img {
+  width: 52px;
+  height: 52px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(30,90,168,0.15);
+}
 .logo-text {
   font-weight: 900;
   font-size: 17px;

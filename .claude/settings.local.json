@@ -16,7 +16,10 @@
       "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add CLAUDE.md: LP creation workflow with hearing mode rules\")",
       "WebFetch(domain:docs.google.com)",
       "Bash(git mv *)",
-      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add BrightHope corporate site \\(5 pages\\) + reorganize: move mala tang to /koen/, add root portfolio\")"
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add BrightHope corporate site \\(5 pages\\) + reorganize: move mala tang to /koen/, add root portfolio\")",
+      "Bash(file /Users/yudu/Desktop/LP作成/brighthope/images/*.*)",
+      "Bash(find ~/Downloads ~/Desktop ~/Pictures -type f \\\\\\( -name \"*.png\" -o -name \"*.jpg\" -o -name \"*.jpeg\" -o -name \"*.webp\" \\\\\\) -mtime -1 2>/dev/null | head -20)",
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add BrightHope logo image to header on all 5 pages\")"
     ]
   }
 }
