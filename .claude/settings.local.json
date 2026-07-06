@@ -32,7 +32,9 @@
       "Bash(sips --cropOffset 1194 0 -c 480 598 reason-icons-full.png --out reason-3.png)",
       "Bash(python3 -c ' *)",
       "Bash(pip3 install *)",
-      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add reason icons: split into 3 individual icons for top page 'reasons to choose' section\")"
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add reason icons: split into 3 individual icons for top page 'reasons to choose' section\")",
+      "Bash(sips -g pixelWidth -g pixelHeight \"/Users/yudu/Desktop/LP作成/brighthope/images/recruit-icons-full.png\")",
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add recruit feature icons: 4 individual icons for recruit page benefits section\")"
     ]
   }
 }
