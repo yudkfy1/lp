@@ -40,7 +40,9 @@
       "Bash(sort -k2 -r)",
       "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add background image to about page header\")",
       "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add background images to services, recruit, and news page headers\")",
-      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Refine mobile layout across all sections: text alignment, sizing, spacing, iOS zoom fix\")"
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Refine mobile layout across all sections: text alignment, sizing, spacing, iOS zoom fix\")",
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add AI-generated image disclaimer to footer on all 5 pages\")",
+      "Bash(git -c user.name=\"yudkfy1\" -c user.email=\"love.125.friend.1224@icloud.com\" commit -m \"Add SETUP.md: complete initial setup guide \\(Git, GitHub, PAT, keychain, Vercel\\)\")"
     ]
   }
 }
